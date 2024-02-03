@@ -1,0 +1,10 @@
+server:
+  port: 8090
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+application:
+  kafka:
+    topic: tpc1
